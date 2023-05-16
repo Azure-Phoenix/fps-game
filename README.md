@@ -6,23 +6,11 @@ The project features an entity/component system, FPS controller using ammo.js ri
 
 Please note that the project is still under development.
 
-[Online Demo](http://venolabs.com/three-fps-demo/)
-
 ## Install
 Before you begin, make sure you are comfortable with terminal commands and have [Node and NPM installed](https://www.npmjs.com/get-npm). Then either install via a download or with Git.
 
 ### Install via Download
-First download the [zip of the project](https://github.com/mohsenheydari/three-fps/archive/master.zip) and extract it. Then in terminal at that folder type `npm install` to set things up. To get going run: `npm start`.
-
-### Install with Git
-In terminal clone the project into a directory of your choice then delete the git folder to start fresh.
-
-```bash
-git clone --depth=1 https://github.com/mohsenheydari/three-fps.git three-fps
-cd three-fps
-rm -rf .git
-npm install
-```
+In terminal at that folder type `npm install` to set things up. To get going run: `npm start`.
 
 ## Running the development server
 To see the changes you make to the project go to the project's folder in terminal and type...
@@ -46,11 +34,3 @@ Art assets used in this project:
 * [Metal Ammo Box](https://skfb.ly/6UAQY) by [TheoClarke](https://sketchfab.com/TheoClarke) is licensed under CC BY 4.0
 * [Mutant](https://mixamo.com) by [mixamo.com](https://mixamo.com)
 * [Veld Fire](https://hdrihaven.com/hdri/?h=veld_fire) by [Greg Zaal](https://hdrihaven.com/hdris/?a=Greg%20Zaal) is licensed under CC0
-
-## Thanks to
-* [Three Seed](https://github.com/edwinwebb/three-seed)
-* [ammo.js](https://github.com/kripken/ammo.js/)
-* [three-pathfinding](https://github.com/donmccurdy/three-pathfinding)
-
-## License
-[MIT](https://github.com/mohsenheydari/three-fps/blob/master/LICENSE)
